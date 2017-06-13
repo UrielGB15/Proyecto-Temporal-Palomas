@@ -119,4 +119,4 @@ S7,
 	#R^TecCen: ADD A;
 	SET Z(A-1) = T+.22 ---> SX
 	#R^TecIzq: ADD C;
-	SET Z(C-1) = T+.3 ---> SX
+	SET Z(C-1) = T+.32 ---> SX

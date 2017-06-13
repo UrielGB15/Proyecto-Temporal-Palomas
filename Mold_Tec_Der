@@ -48,8 +48,9 @@ S2,
 	0.1": SHOW 1, TSESION, T;
 	SHOW 2, TecDer, B;
 	SHOW 3, TecCen, A;
-	SHOW 4, TEcIzq, C;
-	SHOW 5, REFOR, E ---> SX
+	SHOW 4, TecIzq, C;
+	SHOW 6, REFOR, E;
+        SHOW 5, TBLACKO,G ---> SX
 
 \   ****************************************************
 \                         TIEMPO
@@ -107,7 +108,7 @@ S4,
 S5,
 	0.01": ON^COMEDERO; OFF^LG ---> S6
 S6,
-	2": OFF^COMEDERO;
+	2": OFF^COMEDERO; ADD E;
         SET Z(E-1)=T+.4 ---> S7
 
 \ Registramos todas las posibles respuestas en teclas
